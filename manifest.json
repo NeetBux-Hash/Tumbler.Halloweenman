@@ -1,10 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.2.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "Tumbler.Scarecrow",
+	"name": "Scarecrow from Colorado",
+	"description": "Completes the sandman suit by adding the scarecrow hat and mask",
+	"authors": ["Tumbler"],
 	"frameworkVersion": "2.33.20",
+	"blobsFolders": ["blobs"],
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"
 }

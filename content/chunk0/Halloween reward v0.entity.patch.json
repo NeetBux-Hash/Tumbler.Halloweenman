@@ -29,7 +29,7 @@
 						"m_pMeshResource": {
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "[assembly:/_pro/characters/assets/individuals/colorado/scarecrow/geometry/male_reg_scarecrow.wl2?/hat.weightedprim](bodypart).pc_weightedprim",
+								"resource": "0014EF06F7F76584",
 								"flag": "5F"
 							}
 						},

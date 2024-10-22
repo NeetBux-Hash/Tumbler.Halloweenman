@@ -1,9 +1,9 @@
-# Test Mod
+# Scarecrow
 
-A truly amazing mod
+Completes the Sandman suit by adding the scarecrow hat and mask
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/mod.framework.zip) | [Download](https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/mod.framework.zip)
 
 ---
 
-`YourPreferredAlias.AnIDForTheMod` v0.2.0, by Your Preferred Alias. This README was automatically generated from the mod's manifest.
+`Tumbler.Scarecrow` v0.3.0, by Tumbler. This README was automatically generated from the mod's manifest.

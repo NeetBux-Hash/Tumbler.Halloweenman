@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"id": "Tumbler.Scarecrow",
 	"name": "Scarecrow",
 	"description": "Completes the Sandman suit by adding the scarecrow hat and mask",

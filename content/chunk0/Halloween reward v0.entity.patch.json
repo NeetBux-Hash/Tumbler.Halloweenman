@@ -10,6 +10,9 @@
 						"m_aBodyParts",
 						[
 							{
+								"AddItemAfter": ["cb0560d5088f1c1e", "cafe75bbd09c5f87"]
+							},
+							{
 								"AddItemAfter": ["cb0560d5088f1c1e", "cafe37f4c291ac4a"]
 							}
 						]

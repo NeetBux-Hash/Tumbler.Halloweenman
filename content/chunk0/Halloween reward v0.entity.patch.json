@@ -2,7 +2,19 @@
 	"tempHash": "0088284DB5CDFD87",
 	"tbluHash": "000B050A85C399A3",
 	"patch": [
+		{ "RemoveEntityByID": "cb0560d5088f1c1e" },
+		{ "RemoveEntityByID": "eee346f3ae7d6214" },
+		{ "RemoveEntityByID": "805488bb2130e340" },
 		{ "RemoveEntityByID": "77ec129921a574c7" },
+		{ "RemoveEntityByID": "8ecdf6b0795edc02" },
+		{
+			"SubEntityOperation": [
+				"4f3f02d6d2ad313b",
+				{
+					"RemoveEventConnection": ["Lerp", "ConstantVector1D_04_Value", "8ecdf6b0795edc02"]
+				}
+			]
+		},
 		{
 			"SubEntityOperation": [
 				"4f3f02d6d2ad313b",
@@ -17,30 +29,12 @@
 				{
 					"PatchArrayPropertyValue": [
 						"m_aBodyParts",
-						[{ "RemoveItemByValue": "da0b584f0aa99e85" }, { "RemoveItemByValue": "cb0560d5088f1c1e" }]
+						[
+							{ "RemoveItemByValue": "da0b584f0aa99e85" },
+							{ "RemoveItemByValue": "805488bb2130e340" },
+							{ "RemoveItemByValue": "cb0560d5088f1c1e" }
+						]
 					]
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"8ecdf6b0795edc02",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_mTransform",
-						"value": {
-							"rotation": {
-								"x": -0.0,
-								"y": 0.0,
-								"z": -2.433746447815284e-8
-							},
-							"position": {
-								"x": -1.4638100083175232e-6,
-								"y": -8.725889699690016e-8,
-								"z": 0.0
-							}
-						}
-					}
 				}
 			]
 		},

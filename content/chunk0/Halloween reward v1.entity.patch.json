@@ -2,6 +2,7 @@
 	"tempHash": "0016881B40355395",
 	"tbluHash": "00CB1360E8B50734",
 	"patch": [
+		{ "RemoveEntityByID": "70e30fa213f790f2" },
 		{
 			"SubEntityOperation": [
 				"6bcbd38b5e81e1a5",
@@ -10,6 +11,30 @@
 						"m_aBodyParts",
 						[{ "RemoveItemByValue": "8dc3cab695142648" }, { "RemoveItemByValue": "e87fdb3cf30c97cd" }]
 					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8dc3cab695142648",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ConstantVector1D_04_Value"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8dc3cab695142648",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ConstantVector1D_06_Value"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8dc3cab695142648",
+				{
+					"RemoveAllInputCopyConnectionsForInput": "ConstantVector1D_01_Value"
 				}
 			]
 		}

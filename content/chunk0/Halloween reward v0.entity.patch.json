@@ -37,6 +37,27 @@
 					}
 				}
 			]
+		},
+		{
+			"AddEntity": [
+				"cafe75bbd09c5f87",
+				{
+					"parent": "e710c603654cc690",
+					"name": "Part_Mask covered",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/colorado/scarecrow/geometry/male_reg_scarecrow.wl2?/mask.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

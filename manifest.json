@@ -23,7 +23,7 @@
 	],
 	"localisationOverrides": {
 		"004B8C5124A49543": {
-			"english": { "14027492284271511": "The Scarecrow Suit" }
+			"english": { "2875169229": "The Scarecrow Suit" }
 		}
 	},
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"

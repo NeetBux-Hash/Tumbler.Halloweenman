@@ -1,10 +1,33 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.2.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "Tumbler.Scarecrow",
+	"name": "Scarecrow",
+	"description": "Completes the Sandman suit by adding the scarecrow hat and mask",
+	"authors": ["Tumbler"],
 	"frameworkVersion": "2.33.20",
+	"contentFolders": ["content"],
+	"blobsFolders": ["blobs"],
+	"dependencies": [
+		"00CCE6B629C257BB",
+		{
+			"runtimeID": "0014EF06F7F76584",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00403A60E58000FE",
+			"toChunk": 0,
+			"portFromChunk1": true
+		}
+	],
+	"localisationOverrides": {
+		"004B8C5124A49543": {
+			"english": {
+				"2875169229": "The Scarecrow Suit",
+				"4274604959": "Haunt the shadows in this rugged oil skin coat, worn overalls, and the most terrifying piece—a crude scarecrow mask. Your targets will never see their end, only the creeping dread of something inhuman behind them. It's not just your name they'll fear, but the very thought of your presence. As their last breath fades, a chilling voice whispers... 'I like my cheese drippy, bruh.'"
+			}
+		}
+	},
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"
 }

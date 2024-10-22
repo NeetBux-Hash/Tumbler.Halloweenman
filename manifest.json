@@ -6,6 +6,7 @@
 	"description": "Completes the sandman suit by adding the scarecrow hat and mask",
 	"authors": ["Tumbler"],
 	"frameworkVersion": "2.33.20",
+	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"
 }

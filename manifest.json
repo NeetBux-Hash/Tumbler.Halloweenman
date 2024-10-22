@@ -8,5 +8,13 @@
 	"frameworkVersion": "2.33.20",
 	"contentFolders": ["content"],
 	"blobsFolders": ["blobs"],
+	"dependencies": [
+		"00CCE6B629C257BB",
+		{
+			"runtimeID": "0014EF06F7F76584",
+			"toChunk": 0,
+			"portFromChunk1": true
+		}
+	],
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"
 }

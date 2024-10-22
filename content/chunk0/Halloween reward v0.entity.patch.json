@@ -1,6 +1,43 @@
 {
 	"tempHash": "0088284DB5CDFD87",
 	"tbluHash": "000B050A85C399A3",
-	"patch": [],
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e710c603654cc690",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{
+								"AddItemAfter": ["cb0560d5088f1c1e", "cafe37f4c291ac4a"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe37f4c291ac4a",
+				{
+					"parent": "e710c603654cc690",
+					"name": "Part_Hat",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/colorado/scarecrow/geometry/male_reg_scarecrow.wl2?/hat.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
 	"patchVersion": 6
 }

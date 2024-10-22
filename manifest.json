@@ -23,7 +23,10 @@
 	],
 	"localisationOverrides": {
 		"004B8C5124A49543": {
-			"english": { "2875169229": "The Scarecrow Suit" }
+			"english": {
+				"2875169229": "The Scarecrow Suit",
+				"4274604959": "Haunt the shadows in this rugged oil skin coat, worn overalls, and the most terrifying piece—a crude scarecrow mask. Your targets will never see their end, only the creeping dread of something inhuman behind them. It's not just your name they'll fear, but the very thought of your presence. As their last breath fades, a chilling voice whispers... 'I like my cheese drippy, bruh.'"
+			}
 		}
 	},
 	"updateCheck": "https://github.com/NeetBux-Hash/Tumbler.Halloweenman/releases/latest/download/updates.json"

@@ -6,4 +6,4 @@ Completes the Sandman suit by adding the scarecrow hat and mask
 
 ---
 
-`Tumbler.Scarecrow` v0.4.0, by Tumbler. This README was automatically generated from the mod's manifest.
+`Tumbler.Scarecrow` v0.5.0, by Tumbler. This README was automatically generated from the mod's manifest.
